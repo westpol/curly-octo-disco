@@ -1,0 +1,42 @@
+/* Table CSS by westpol */
+
+table.table {
+	width: 100%;				/* Change width if needed */
+	border-spacing: 0;			
+	border-collapse: collapse;	
+	margin: 0em;				/* Change margin if needed */
+	cursor: default;			/* The cursor type when hovering over the table 	
+								   Currently set to "default" */
+	}								   
+th.Table-title {
+	background-color: #404244;	/*Background color of the title */
+	color: white;
+}
+th {
+	padding: 1em;
+}
+th.Table-feature {
+	background-color: #515459;	/* Background color of feature */
+	color: white;				/* Text color of feature */
+	font-weight: 900;
+}
+th.Table-ok {
+	color: white;				/* Text color of "ok" fields */
+	background-color: #68e27c;	/* Background color of "ok" fields(light green) */
+	content: "\2713 ";
+}
+th.Table-no {
+	color: white;				/* Text color of "no" fields */
+	background-color: #e85c5c;	/* Background color of "no" fields (light red) */
+}
+th.Table-bottom {
+	text-align: center;			/* Text color of bottom row */
+	background-color: #404244;	/* Text color of bottom row (dark gray) */
+	color: white;
+	cursor: pointer;			/* Cursor set to pointer for links. If not wanted, 
+								   change to "default" */
+}								   
+a.Table-link {
+	color: white;				/* Color of links with "Table-link" class (white)*/
+	text-decoration: none;
+}
